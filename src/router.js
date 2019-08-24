@@ -25,8 +25,12 @@ export default new Router({
     {
       path: "/empleos",
       name: "empleos",
-      component: () =>
-        import("./views/Empleos.vue")
+      component: () => import("./views/Empleos.vue")
+    },
+    {
+      path: "/contacto",
+      name: "contacto",
+      component: () => import("./views/Contacto.vue")
     }
   ]
 });

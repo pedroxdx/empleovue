@@ -2,7 +2,7 @@
     <article class="resultados">
 	    <div class="row">
 	        <div class="col-4 col-sm-4 col-md-2">
-	        	<img class="img-fluid" src="../assets/images/logos/mcdonald.jpg" alt=""/>
+	        	<img class="img-fluid" :src="imageItem" alt=""/>
 	        </div>
 	        <div class="col-8 col-sm-8 col-md-7">
 	        	<ul class="list-inline">
@@ -43,6 +43,11 @@ export default {
         item: Object
     },
     computed: {
+		imageItem: {
+			get() {
+				return require(`@/assets/images/logos/${this.item.imagen}`);
+			}
+		},
         salario: {
             get() {
                 return number_format(this.item.salario, 2);

@@ -8,7 +8,7 @@
 					    <li class="list-inline-item"><router-link to="/">Inicio</router-link></li>
 					    <li class="list-inline-item"><router-link to="/about">Nosotros</router-link></li>
     				    <li class="list-inline-item"><router-link to="/empleos">Empleos</router-link></li>
-    				    <li class="list-inline-item"><a href="#">Contacto</a></li>
+    				    <li class="list-inline-item"><router-link to="/contacto">Contacto</router-link></li>
     			    </ul>
     		    </div>
     		    <div class="col-12 col-sm-4 col-md-4 sesion">
