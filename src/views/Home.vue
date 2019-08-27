@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import FormEmpleoBuscador from "@/components/FormEmpleoBuscador.vue"
+import FormEmpleoBuscador from "@/components/FormEmpleoBuscador.vue";
 import Patrocinadores from "@/components/Patrocinadores.vue";
 import Restaurante from "@/components/Restaurante.vue";
 import Servicios from "@/components/Servicios.vue";

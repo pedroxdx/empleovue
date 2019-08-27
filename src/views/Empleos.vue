@@ -8,7 +8,7 @@
                         <form-empleo-buscador />
                     </div>
                     <div class="col-12 col-sm-6 col-md-7">
-                        <empleos-disponibles :empleos="empleos" />
+                        <empleos-disponibles :empleos="getEmpleosDisponibles" />
                     </div>
                 </div>
             </div>
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 import PageHeader from "@/components/PageHeader.vue";
 import FormEmpleoBuscador from "@/components/FormEmpleoBuscador.vue";
 import EmpleosDisponibles from "@/components/EmpleosDisponibles.vue";
@@ -30,23 +31,11 @@ export default {
     },
     data() {
         return {
-            title: "Vacantes de Empleo",
-            empleos: [
-                {
-                    imagen: "mcdonald.jpg",
-                    empleo: "Mesero",
-                    fecha: "2017-08-17 16:32:42",
-                    salario: 4000,
-                    signo: "$",
-                    moneda: "MXN",
-                    unidad_temporal: "Mes",
-                    region: {
-                        estado: "Yucatán",
-                        ciudad: "Mérida"
-                    }
-                }
-            ]
+            title: "Vacantes de Empleo"
         }
+    },
+    computed: {
+        ...mapGetters(["getEmpleosDisponibles"])
     }
 }
 </script>

@@ -9,6 +9,7 @@
 	        		<li class="list-inline-item"><a href="#" alt=""><h3>{{ item.empleo }}</h3></a></li>
 	        		<li class="list-inline-item"><h4>{{ item.fecha }}</h4></li>
 	        	</ul>
+				<p>{{ item.descripcion }}</p>
 	        	<p class="salario"><strong>Salario:</strong> {{ item.signo }}{{ salario }} {{ item.moneda }} al {{ item.unidad_temporal }}</p>
 	        </div>
 	        <div class="col-12 col-sm-12 col-md-3">

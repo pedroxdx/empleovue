@@ -13,9 +13,9 @@
     		    </div>
     		    <div class="col-12 col-sm-4 col-md-4 sesion">
     			    <ul class="list-inline">
-    				    <li class="list-inline-item"><a href="#">Registro</a></li>
+    				    <li class="list-inline-item"><router-link to="/registrar-usuario">Registro</router-link></li>
     				    <li class="list-inline-item">|</li>
-    				    <li class="list-inline-item"><a href="#">Iniciar Sesión</a></li>
+    				    <li class="list-inline-item"><router-link to="/login">Iniciar Sesión</router-link></li>
     			    </ul>
     		    </div>
 		    </div>

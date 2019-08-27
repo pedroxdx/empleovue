@@ -19,6 +19,10 @@ body {
 	text-align: center;
 }
 
+.text-red {
+    color: #dc3545;
+}
+
 .btn-busqueda {
     color: #fff;
     background-color: #329d4e;
@@ -561,6 +565,7 @@ section.empleos-buscador .container .row article.resultados .row h4 {
 
 section.empleos-buscador .container .row article.resultados .row p {
 	font-size: 14px;
+	margin-bottom: 10px;
 }
 
 section.empleos-buscador .container .row article.resultados .row p.salario {

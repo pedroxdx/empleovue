@@ -31,6 +31,21 @@ export default new Router({
       path: "/contacto",
       name: "contacto",
       component: () => import("./views/Contacto.vue")
+    },
+    {
+      path: "/registrar-usuario",
+      name: "registrar-usuario",
+      component: () => import("./views/RegistrarUsuario.vue")
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: () => import("./views/Login.vue")
+    },
+    {
+      path: "/recuperar-password",
+      name: "recuperar-password",
+      component: () => import("./views/RecuperarPassword.vue")
     }
   ]
 });
