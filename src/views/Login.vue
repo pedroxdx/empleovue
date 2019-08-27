@@ -40,7 +40,7 @@
                                 </div>
                                 <ul class="list-inline">								 
                                     <li class="list-inline-item"><button type="submit" class="btn btn-primary">Login</button></li>								  	
-                                    <li class="list-inline-item"><a class="btn btn-success" href="#">Forgot your password</a></li>
+                                    <li class="list-inline-item"><router-link to="/recuperar-password" class="btn btn-success">Forgot your password</router-link></li>
                                 </ul>								
 						    </form>
                         </div>
@@ -115,11 +115,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-label {
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-weight: bold;
-}
-</style>

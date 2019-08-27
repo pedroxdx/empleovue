@@ -154,11 +154,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-label {
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-weight: bold;
-}
-</style>

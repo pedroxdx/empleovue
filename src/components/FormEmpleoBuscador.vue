@@ -161,7 +161,7 @@ article.busqueda {
 	border: 2px solid #e44817;
 }
 
-@media (max-width:425px){
+@media (max-width:425px) {
 	
     article.busqueda {
         padding: 10px;
@@ -181,11 +181,11 @@ article.busqueda .row {
 	text-align: center;
 }
 
-article.busqueda .row .avanzada{
+article.busqueda .row .avanzada {
 	padding-top: 5px;
 }
 
-article.busqueda .row .avanzada a{
+article.busqueda .row .avanzada a {
 	color: #fff;
 	text-decoration: underline;
 }
