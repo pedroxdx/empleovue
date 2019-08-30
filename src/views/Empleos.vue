@@ -34,6 +34,9 @@ export default {
             title: "Vacantes de Empleo"
         }
     },
+    created() {
+        this.$store.dispatch("getEmpleosDisponiblesAPI");
+    },
     computed: {
         ...mapGetters(["getEmpleosDisponibles"])
     }
